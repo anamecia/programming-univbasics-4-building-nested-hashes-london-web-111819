@@ -11,6 +11,7 @@ def monopoly_with_second_tier
   # complexity.
   new_hash = base_hash
   new_hash[:railroads] = {:pieces => 6}
+  new_hash
 end
 
 def monopoly_with_third_tier
