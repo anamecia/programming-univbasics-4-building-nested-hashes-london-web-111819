@@ -20,7 +20,8 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   new_new_hash = monopoly_with_second_tier
-  new_new_hesh
+  new_new_hash[:railroads][:railroads] = 8
+  new_new_hash
 end
 
 def monopoly_with_fourth_tier
