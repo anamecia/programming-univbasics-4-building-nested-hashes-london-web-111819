@@ -42,4 +42,10 @@ def monopoly_with_fourth_tier
   # complexity.
   new_new_new_hash = monopoly_with_third_tier
   new_new_new_hash = new_new_new_hash[:railroads][:names][:reading_railroad] = {:mortgage => '$100'}
+  new_new_new_hash = monopoly_with_third_tier
+  new_new_new_hash = new_new_new_hash[:railroads][:names][:pennsylvania_railroad] = {:mortgage => '$100'}
+  new_new_new_hash = monopoly_with_third_tier
+  new_new_new_hash = new_new_new_hash[:railroads][:names][:b_and_o_railroad] = {:mortgage => '$100'}
+  new_new_new_hash = monopoly_with_third_tier
+  new_new_new_hash = new_new_new_hash[:railroads][:names][:shortline_railroad] = {:mortgage => '$100'}
 end
