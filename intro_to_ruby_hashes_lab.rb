@@ -21,7 +21,7 @@ def monopoly_with_third_tier
   # complexity.
   new_new_hash = monopoly_with_second_tier
   new_new_hash[:railroads][:rent_in_dollars] = {:one_piece_owned => 25, :two_pieces_owned => 50,:three_pieces_owned => 100, :four_pieces_owned => 200}
-  new_new_hash[:railroads][:names] = {:reading_railroad => {}, :key6 => 6,:key7 => 7, :key8 => 8}
+  new_new_hash[:railroads][:names] = {:reading_railroad => {}, :pennsylvania_roads => {},:key7 => 7, :key8 => 8}
   new_new_hash
 end
 
